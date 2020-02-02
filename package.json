@@ -1,0 +1,20 @@
+{
+  "name": "e360microwave",
+  "version": "1.0.0",
+  "description": "Building a website for my Father's company.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olisun/e360microwave.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olisun/e360microwave/issues"
+  },
+  "homepage": "https://github.com/Olisun/e360microwave#readme"
+}
