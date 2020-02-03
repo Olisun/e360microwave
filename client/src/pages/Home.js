@@ -1,15 +1,14 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Hero from '..components/Hero';
+import Hero from '../components/Hero';
 
 const HomePage = (props) => {
-  const { title, subTitle, text } = this.props;
   return (
     <div>
       <Hero
-        title={title}
-        subTitle={subTitle}
-        text={text}
+        title={props.title}
+        subTitle={props.subTitle}
+        text={props.text}
       />
     </div>
   )
