@@ -8,13 +8,17 @@ import "./App.css";
 import Footer from "./components/Footer";
 import HomePage from "./pages/Home";
 import AboutPage from "./pages/About";
+import ProductsPage from "./pages/Products";
+import CompanyPage from "./pages/Company";
+import ContactPage from "./pages/Contact";
+import NewsroomPage from "./pages/Newsroom";
 
 class App extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      title: "Oliver Sun",
+      title: "e360microwave Main",
       headerLinks: [
         { title: "Home", path: "/" },
         { title: "About", path: "/about" },
@@ -22,23 +26,32 @@ class App extends Component {
         { title: "Projects", path: "/projects" }
       ],
       home: {
+        title: "e360microwave",
+        subTitle: "Featured Projects",
+        text: "Checkout my projects"
+      },
+      products: {
         title: "You're never too old!",
         subTitle: "Featured Projects",
         text: "Checkout my projects"
       },
       about: {
-        title: "About Me"
+        title: "About the Company"
       },
-      contact: {
+      company: {
         title: "You can reach me any time!"
       },
-      projects: {
+      contacts: {
+        title: "My Projects"
+      },
+      newsroom: {
         title: "My Projects"
       }
     }
   }
 
   render() {
+    const { title, subTitle, text, home, about } = this.state;
     return (
       <Router>
         <Container className="p-0" fluid={true}>
@@ -48,22 +61,46 @@ class App extends Component {
             <NavBar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/about">About Me</Link>
-                <Link className="nav-link" to="/contact">Contact Me</Link>
-                <Link className="nav-link" to="/projects">Projects</Link>
+                <Link className="nav-link" to="/products">Products</Link>
+                <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to="/company">Company</Link>
+                <Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link" to="/newsroom">Newsroom</Link>
               </Nav>
             </NavBar.Collapse>
           </NavBar>
-
-          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
-          <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
-
-
-
+          <Route
+            path="/"
+            exact render={() => <HomePage
+              title={home.title}
+              subTitle={home.subTitle}
+              text={home.text}
+            />}
+          />
+          <Route
+            path="/products"
+            render={() => <ProductsPage />}
+          />
+          <Route
+            path="/about"
+            render={() => <AboutPage
+              title={about.title}
+            />}
+          />
+          <Route
+            path="/company"
+            render={() => <CompanyPage />}
+          />
+          <Route
+            path="/contact"
+            render={() => <ContactPage />}
+          />
+          <Route
+            path="/newsroom"
+            render={() => <NewsroomPage />}
+          />
           <Footer />
-
         </Container>
-
       </Router>
     )
   }

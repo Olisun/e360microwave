@@ -3,17 +3,14 @@ import { render } from 'react-dom';
 
 import Hero from '../components/Hero';
 
-class AboutPage extends Component {
+class CompanyPage extends Component {
   render() {
-    const { title } = this.props;
     return (
       <div>
-        <Hero
-          title={title}
-        />
+        <p>Company Page works</p>
       </div>
     )
   }
-};
+}
 
-export default AboutPage;
+export default CompanyPage;
