@@ -6,7 +6,7 @@ import Hero from '../components/Hero';
 class NewsroomPage extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <p>Newsroom Page works</p>
       </div>
     )

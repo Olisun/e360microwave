@@ -8,7 +8,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import HomePage from "./pages/Home";
 import AboutPage from "./pages/About";
-import ProductsPage from "./pages/Products";
+import ProductsList from "./pages/products/ProductList";
 import CompanyPage from "./pages/Company";
 import ContactPage from "./pages/Contact";
 import NewsroomPage from "./pages/Newsroom";
@@ -54,8 +54,8 @@ class App extends Component {
     const { title, subTitle, text, home, about } = this.state;
     return (
       <Router>
-        <Container className="p-0" fluid={true}>
-          <NavBar className="border-bottom" bg="transparent" expand="lg">
+        <Container className="container" fluid={true}>
+          <NavBar className="border-bottom" sticky="top" bg="dark" variant="dark" expand="lg">
             <NavBar.Brand>e360microwave</NavBar.Brand>
             <NavBar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <NavBar.Collapse id="navbar-toggle">
@@ -79,7 +79,7 @@ class App extends Component {
           />
           <Route
             path="/products"
-            render={() => <ProductsPage />}
+            render={() => <ProductsList />}
           />
           <Route
             path="/about"

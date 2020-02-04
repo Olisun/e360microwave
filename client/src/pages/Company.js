@@ -6,7 +6,7 @@ import Hero from '../components/Hero';
 class CompanyPage extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <p>Company Page works</p>
       </div>
     )
