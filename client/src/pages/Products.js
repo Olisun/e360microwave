@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import products from './products.json';
-import ProductCard from './ProductCard';
+import products from '../components/products/products.json';
+import ProductCard from '../components/products/ProductCard';
 
 
-class ProductList extends Component {
+class ProductsPage extends Component {
 
 
   render() {
@@ -23,4 +23,4 @@ class ProductList extends Component {
   }
 }
 
-export default ProductList;
+export default ProductsPage;

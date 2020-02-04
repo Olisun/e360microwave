@@ -8,7 +8,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import HomePage from "./pages/Home";
 import AboutPage from "./pages/About";
-import ProductsList from "./pages/products/ProductList";
+import ProductsPage from "./pages/Products";
 import CompanyPage from "./pages/Company";
 import ContactPage from "./pages/Contact";
 import NewsroomPage from "./pages/Newsroom";
@@ -18,7 +18,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: "e360microwave Main",
+      title: "RF/MICROWAVE PRODUCTS",
       headerLinks: [
         { title: "Home", path: "/" },
         { title: "About", path: "/about" },
@@ -26,8 +26,8 @@ class App extends Component {
         { title: "Projects", path: "/projects" }
       ],
       home: {
-        title: "e360microwave",
-        subTitle: "Featured Projects",
+        title: "RF/MICROWAVE PRODUCTS",
+        subTitle: "Technology ​for everything wireless and the testing there of...",
         text: "Checkout my projects"
       },
       products: {
@@ -79,7 +79,7 @@ class App extends Component {
           />
           <Route
             path="/products"
-            render={() => <ProductsList />}
+            render={() => <ProductsPage />}
           />
           <Route
             path="/about"
@@ -105,9 +105,5 @@ class App extends Component {
     )
   }
 }
-
-
-
-
 
 export default App;
