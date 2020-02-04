@@ -21,9 +21,11 @@ class App extends Component {
       title: "RF/MICROWAVE PRODUCTS",
       headerLinks: [
         { title: "Home", path: "/" },
+        { title: "Products", path: "/products" },
         { title: "About", path: "/about" },
+        { title: "Company", path: "/company" },
         { title: "Contact", path: "/contact" },
-        { title: "Projects", path: "/projects" }
+        { title: "Newsroom", path: "/newsroom" }
       ],
       home: {
         title: "RF/MICROWAVE PRODUCTS",
