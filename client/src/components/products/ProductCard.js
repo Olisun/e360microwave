@@ -4,13 +4,12 @@ import { Card, Button, Body, Text, Title } from "react-bootstrap";
 import ReactDOM from "react-dom";
 import ReactWOW from "react-wow"
 
-import products from "./products.json";
 import "./ProductCard.css";
-import ExampleModal from "../Modal";
+import ExampleModal from "../modal/Modal";
 
 class ProductCard extends Component {
   render() {
-    const { id, name, description } = this.props;
+    const { id, name, description, forModal, forModal2 } = this.props;
     return (
       <div className="container">
         <div className="wow bounceIn">
@@ -18,7 +17,10 @@ class ProductCard extends Component {
             <Card.Body>{id}
               <Card.Title>{name}</Card.Title>
               <Card.Text>{description}</Card.Text>
-              <ExampleModal />
+              <ExampleModal
+                content={forModal}
+                moreContent={forModal2}
+              />
             </Card.Body>
           </Card>
         </div>

@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import products from '../components/products/products.json';
 import ProductCard from '../components/products/ProductCard';
 
-
 class ProductsPage extends Component {
 
 
@@ -16,6 +15,8 @@ class ProductsPage extends Component {
             id={product.id}
             name={product.productName}
             description={product.productDescription}
+            forModal={product.modalContent}
+            forModal2={product.modalContent2}
           />
         ))}
       </div>
