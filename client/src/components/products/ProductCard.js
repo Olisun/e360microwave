@@ -6,6 +6,7 @@ import ReactWOW from "react-wow"
 
 import products from "./products.json";
 import "./ProductCard.css";
+import ExampleModal from "../Modal";
 
 class ProductCard extends Component {
   render() {
@@ -17,6 +18,7 @@ class ProductCard extends Component {
             <Card.Body>{id}
               <Card.Title>{name}</Card.Title>
               <Card.Text>{description}</Card.Text>
+              <ExampleModal />
             </Card.Body>
           </Card>
         </div>
