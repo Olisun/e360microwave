@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import NavBar from "react-bootstrap/NavBar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import Nav from "react-bootstrap/Nav";
 import "./App.css";
 
@@ -12,6 +13,9 @@ import ProductsPage from "./pages/Products";
 import CompanyPage from "./pages/Company";
 import ContactPage from "./pages/Contact";
 import NewsroomPage from "./pages/Newsroom";
+import SPDT from "./pages/products/SPDT";
+import TRANSFER from "./pages/products/TRANSFER";
+
 
 class App extends Component {
 
@@ -64,6 +68,11 @@ class App extends Component {
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/products">Products</Link>
+                <NavDropdown title="Products" id="basic-nav-dropdown">
+                  <NavDropdown.Item href="/SPDT">SPDT</NavDropdown.Item>
+                  <NavDropdown.Item href="/TRANSFER">TRANSFER</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                </NavDropdown>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/company">Company</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
@@ -71,36 +80,20 @@ class App extends Component {
               </Nav>
             </NavBar.Collapse>
           </NavBar>
-          <Route
-            path="/"
-            exact render={() => <HomePage
-              title={home.title}
-              subTitle={home.subTitle}
-              text={home.text}
-            />}
-          />
-          <Route
-            path="/products"
-            render={() => <ProductsPage />}
-          />
-          <Route
-            path="/about"
-            render={() => <AboutPage
-              title={about.title}
-            />}
-          />
-          <Route
-            path="/company"
-            render={() => <CompanyPage />}
-          />
-          <Route
-            path="/contact"
-            render={() => <ContactPage />}
-          />
-          <Route
-            path="/newsroom"
-            render={() => <NewsroomPage />}
-          />
+          <Route path="/" exact render={() => <HomePage
+            title={home.title}
+            subTitle={home.subTitle}
+            text={home.text}
+          />} />
+          <Route path="/products" render={() => <ProductsPage />} />
+          <Route path="/SPDT" render={() => <SPDT />} />
+          <Route path="/TRANSFER" render={() => <TRANSFER />} />
+          <Route path="/about" render={() => <AboutPage
+            title={about.title}
+          />} />
+          <Route path="/company" render={() => <CompanyPage />} />
+          <Route path="/contact" render={() => <ContactPage />} />
+          <Route path="/newsroom" render={() => <NewsroomPage />} />
           <Footer />
         </Container>
       </Router>
