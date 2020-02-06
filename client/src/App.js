@@ -20,6 +20,10 @@ import SP7T_SP8T from "./pages/products/SP7T-SP8T";
 import SP9T_SP10T from "./pages/products/SP9T-SP10T";
 import SP11T_SP12T from "./pages/products/SP11T-SP12T";
 import Lo_PIM from "./pages/products/Lo-PIM";
+import RuggedizedSwitches from "./pages/products/RuggedizedSwitches";
+import SwitchMatrix from "./pages/products/SwitchMatrix";
+import PHSwitchParameters from "./pages/products/PHSwitchParameters";
+import ModelNumbers from "./pages/products/ModelNumbers";
 
 class App extends Component {
 
@@ -80,6 +84,10 @@ class App extends Component {
                   <NavDropdown.Item href="/SP9T-SP10T">SP9T-SP10T</NavDropdown.Item>
                   <NavDropdown.Item href="/SP11T-SP12T">SP11T-SP12T</NavDropdown.Item>
                   <NavDropdown.Item href="/Lo-PIM">Lo-PIM</NavDropdown.Item>
+                  <NavDropdown.Item href="/Ruggedized-Switches">Ruggedized Switches</NavDropdown.Item>
+                  <NavDropdown.Item href="/Switch-Matrix">Switch Matrix</NavDropdown.Item>
+                  <NavDropdown.Item href="/Power-Handling-Chart-&-Typical-Switch-Parameters">Power Handling Chart & Typical Switch Parameters</NavDropdown.Item>
+                  <NavDropdown.Item href="/Model-Numbers">Model Numbers</NavDropdown.Item>
                 </NavDropdown>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/company">Company</Link>
@@ -101,6 +109,10 @@ class App extends Component {
           <Route path="/SP9T-SP10T" render={() => <SP9T_SP10T />} />
           <Route path="/SP11T-SP12T" render={() => <SP11T_SP12T />} />
           <Route path="/Lo-PIM" render={() => <Lo_PIM />} />
+          <Route path="/Ruggedized-Switches" render={() => <RuggedizedSwitches />} />
+          <Route path="/Switch-Matrix" render={() => <SwitchMatrix />} />
+          <Route path="/Power-Handling-Chart-&-Typical-Switch-Parameters" render={() => <PHSwitchParameters />} />
+          <Route path="/Model-Numbers" render={() => <ModelNumbers />} />
           <Route path="/about" render={() => <AboutPage
             title={about.title}
           />} />
