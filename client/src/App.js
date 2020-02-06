@@ -15,7 +15,11 @@ import ContactPage from "./pages/Contact";
 import NewsroomPage from "./pages/Newsroom";
 import SPDT from "./pages/products/SPDT";
 import TRANSFER from "./pages/products/TRANSFER";
-
+import SP3T_SP6T from "./pages/products/SP3T-SP6T";
+import SP7T_SP8T from "./pages/products/SP7T-SP8T";
+import SP9T_SP10T from "./pages/products/SP9T-SP10T";
+import SP11T_SP12T from "./pages/products/SP11T-SP12T";
+import Lo_PIM from "./pages/products/Lo-PIM";
 
 class App extends Component {
 
@@ -71,7 +75,11 @@ class App extends Component {
                 <NavDropdown title="Products" id="basic-nav-dropdown">
                   <NavDropdown.Item href="/SPDT">SPDT</NavDropdown.Item>
                   <NavDropdown.Item href="/TRANSFER">TRANSFER</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                  <NavDropdown.Item href="/SP3T-SP6T">SP3T-SP6T</NavDropdown.Item>
+                  <NavDropdown.Item href="/SP7T-SP8T">SP7T-SP8T</NavDropdown.Item>
+                  <NavDropdown.Item href="/SP9T-SP10T">SP9T-SP10T</NavDropdown.Item>
+                  <NavDropdown.Item href="/SP11T-SP12T">SP11T-SP12T</NavDropdown.Item>
+                  <NavDropdown.Item href="/Lo-PIM">Lo-PIM</NavDropdown.Item>
                 </NavDropdown>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/company">Company</Link>
@@ -88,6 +96,11 @@ class App extends Component {
           <Route path="/products" render={() => <ProductsPage />} />
           <Route path="/SPDT" render={() => <SPDT />} />
           <Route path="/TRANSFER" render={() => <TRANSFER />} />
+          <Route path="/SP3T-SP6T" render={() => <SP3T_SP6T />} />
+          <Route path="/SP7T-SP8T" render={() => <SP7T_SP8T />} />
+          <Route path="/SP9T-SP10T" render={() => <SP9T_SP10T />} />
+          <Route path="/SP11T-SP12T" render={() => <SP11T_SP12T />} />
+          <Route path="/Lo-PIM" render={() => <Lo_PIM />} />
           <Route path="/about" render={() => <AboutPage
             title={about.title}
           />} />

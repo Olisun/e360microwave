@@ -3,14 +3,15 @@ import { render } from 'react-dom';
 
 import Hero from '../../components/Hero';
 
-class SPDT extends Component {
+class Lo_PIM extends Component {
   render() {
     return (
       <div className="container">
-        <h1>SPDT Page works</h1>
+        <h1>Lo-PIM Page works</h1>
+        <p>Last one for today.</p>
       </div>
     )
   }
 };
 
-export default SPDT;
+export default Lo_PIM;

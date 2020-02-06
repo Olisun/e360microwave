@@ -3,14 +3,15 @@ import { render } from 'react-dom';
 
 import Hero from '../../components/Hero';
 
-class SPDT extends Component {
+class SP9T_SP10T extends Component {
   render() {
     return (
       <div className="container">
-        <h1>SPDT Page works</h1>
+        <h1>SP9T - SP10T Page works</h1>
+        <p>What is SP?</p>
       </div>
     )
   }
 };
 
-export default SPDT;
+export default SP9T_SP10T;
