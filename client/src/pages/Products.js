@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import products from '../components/products/products.json';
-import ProductCard from '../components/products/ProductCard';
+import products from "../components/products/products.json";
+import ProductCard from "../components/products/ProductCard";
 
 class ProductsPage extends Component {
 
