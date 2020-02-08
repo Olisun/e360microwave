@@ -8,7 +8,7 @@ import "./App.css";
 
 import Footer from "./components/Footer";
 import HomePage from "./pages/Home";
-import AboutPage from "./pages/About";
+import AboutPage from "./pages/products/about/About";
 import ProductsPage from "./pages/Products";
 import CompanyPage from "./pages/Company";
 import ContactPage from "./pages/Contact";
