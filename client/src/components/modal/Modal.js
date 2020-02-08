@@ -31,7 +31,6 @@ const ExampleModal = (props) => {
         </Modal.Header>
         <Modal.Body>
           {content}
-          <br></br>
           {moreContent}
         </Modal.Body>
       </Modal>
