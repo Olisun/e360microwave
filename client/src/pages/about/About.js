@@ -9,6 +9,7 @@ class AboutPage extends Component {
   componentDidMount() {
     new WOW().init()
   }
+
   render() {
     return (
       <div className="container">
@@ -133,57 +134,57 @@ class AboutPage extends Component {
             <Row id="markets-row">
               <Col sm={2}>
                 <p>TEST EQUIPMENT</p>
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
               </Col>
               <Col sm={2}>
                 <p>AEROSPACE / TRANSPORTATION</p>
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
               </Col>
               <Col sm={2}>
                 <p>GOVERNMENT / DEFENSE</p>
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
               </Col>
               <Col sm={2}>
                 <p>WIRELESS / TELECOM</p>
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
               </Col>
               <Col sm={2}>
                 <p>ENTERPRISE / SEMICONDUCTOR</p>
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
               </Col>
               <Col sm={2}>
                 <p>MEDICAL / INDUSTRIAL</p>
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
-                <Image className="image-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
               </Col>
             </Row>
           </Container>

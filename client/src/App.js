@@ -8,9 +8,9 @@ import "./App.css";
 
 import Footer from "./components/Footer";
 import HomePage from "./pages/Home";
-import AboutPage from "./pages/products/about/About";
+import AboutPage from "./pages/about/About";
 import ProductsPage from "./pages/Products";
-import CompanyPage from "./pages/Company";
+import CompanyPage from "./pages/company/Company";
 import ContactPage from "./pages/Contact";
 import NewsroomPage from "./pages/Newsroom";
 import SPDT from "./pages/products/SPDT";
@@ -42,7 +42,7 @@ class App extends Component {
       home: {
         title: "RF/MICROWAVE PRODUCTS",
         subTitle: "Technology ​for everything wireless and the testing there of...",
-        text: "Checkout my projects"
+        text: "Let's get started!"
       },
       products: {
         title: "You're never too old!",
