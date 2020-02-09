@@ -1,0 +1,16 @@
+#companyOverview {
+  margin-bottom: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+  box-shadow: 7px 10px 5px -3px rgba(0, 0, 0, 0.56);
+  border-radius: 10px;
+  background-color: darkslategrey;
+  color: white;
+}
+
+#switch-assembly {
+  text-align: center;
+  margin: 1rem;
+}
