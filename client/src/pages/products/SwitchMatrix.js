@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { render } from 'react-dom';
 
-import Hero from '../../components/Hero';
+import Hero from '../../components/hero/Hero';
 
 class SwitchMatrix extends Component {
   render() {

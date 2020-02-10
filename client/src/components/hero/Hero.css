@@ -1,0 +1,11 @@
+#typed-hero {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 8px 4px 11px rgba(14, 1, 1, 0.42);
+}
+
+h1 {
+  color: blue;
+  text-shadow: 8px 4px 11px rgba(14, 1, 1, 0.42);
+}

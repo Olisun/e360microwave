@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import { render } from "react-dom";
 import { WOW } from 'wowjs/dist/wow';
 import { Row, Col, Container, Image, rounded, fluid } from "react-bootstrap";
-import Typed from 'react-typed';
 
-import Hero from "../../components/Hero";
+import Hero from "../../components/hero/Hero";
 import "./Home.css";
 
 class HomePage extends Component {
@@ -17,20 +16,11 @@ class HomePage extends Component {
     return (
       <div>
         <div className="wow zoomIn">
-          <Hero
+          <Hero id="hero"
             title={title}
             className="wow zoomIn"
             data-wow-duration="1.5s"
           />
-          <div className="section-container" id="typed-home">
-            <Typed
-              typedRef={(typed) => { this.typed = typed; }}
-              strings={["Technology ​for everything wireless and the testing there of..."]}
-              typeSpeed={40}
-              backSpeed={50}
-              loop
-            />
-          </div>
         </div>
         <div className="container">
           <Container>

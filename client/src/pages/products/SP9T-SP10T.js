@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { render } from 'react-dom';
 
-import Hero from '../../components/Hero';
+import Hero from '../../components/hero/Hero';
 
 class SP9T_SP10T extends Component {
   render() {

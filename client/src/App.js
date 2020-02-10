@@ -9,7 +9,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import HomePage from "./pages/home/Home";
 import AboutPage from "./pages/about/About";
-import ProductsPage from "./pages/Products";
+// import ProductsPage from "./pages/Products";
 import CompanyPage from "./pages/company/Company";
 import ContactPage from "./pages/Contact";
 import NewsroomPage from "./pages/Newsroom";
@@ -33,7 +33,7 @@ class App extends Component {
       title: "RF/MICROWAVE PRODUCTS",
       headerLinks: [
         { title: "Home", path: "/" },
-        { title: "Products", path: "/products" },
+        // { title: "Products", path: "/products" },
         { title: "About", path: "/about" },
         { title: "Company", path: "/company" },
         { title: "Contact", path: "/contact" },
@@ -75,7 +75,7 @@ class App extends Component {
             <NavBar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/products">Products</Link>
+                {/* <Link className="nav-link" to="/products">Products</Link> */}
                 <NavDropdown title="Products" id="basic-nav-dropdown">
                   <NavDropdown.Item href="/SPDT">SPDT</NavDropdown.Item>
                   <NavDropdown.Item href="/TRANSFER">TRANSFER</NavDropdown.Item>
@@ -101,7 +101,7 @@ class App extends Component {
             subTitle={home.subTitle}
             text={home.text}
           />} />
-          <Route path="/products" render={() => <ProductsPage />} />
+          {/* <Route path="/products" render={() => <ProductsPage />} /> */}
           <Route path="/SPDT" render={() => <SPDT />} />
           <Route path="/TRANSFER" render={() => <TRANSFER />} />
           <Route path="/SP3T-SP6T" render={() => <SP3T_SP6T />} />
