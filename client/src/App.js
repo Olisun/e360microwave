@@ -7,7 +7,7 @@ import Nav from "react-bootstrap/Nav";
 import "./App.css";
 
 import Footer from "./components/Footer";
-import HomePage from "./pages/Home";
+import HomePage from "./pages/home/Home";
 import AboutPage from "./pages/about/About";
 import ProductsPage from "./pages/Products";
 import CompanyPage from "./pages/company/Company";
