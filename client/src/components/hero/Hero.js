@@ -21,8 +21,8 @@ class Hero extends Component {
                   typedRef={(typed) => { this.typed = typed; }}
                   strings={["Technology ​for everything wireless and the testing there of..."]}
                   typeSpeed={40}
-                  backSpeed={50}
-                  loop
+                // backSpeed={50}
+                // loop
                 />
               </div>
             </Col>
