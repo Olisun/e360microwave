@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col";
 import Typed from "react-typed";
 
 import "./Hero.css"
+import ControlledCarousel from "../carousel/Carousel";
 
 class Hero extends Component {
   render() {
@@ -21,9 +22,13 @@ class Hero extends Component {
                   typedRef={(typed) => { this.typed = typed; }}
                   strings={["Technology ​for everything wireless and the testing there of..."]}
                   typeSpeed={40}
+                  startDelay={1500}
                 // backSpeed={50}
                 // loop
                 />
+              </div>
+              <div id="carousel">
+                <ControlledCarousel />
               </div>
             </Col>
           </Row>
