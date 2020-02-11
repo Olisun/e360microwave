@@ -36,7 +36,7 @@ class SPDT extends Component {
           </Row>
         </Container>
         <Container>
-          <Table responsive>
+          <Table responsive bordered striped>
             <thead>
               <tr>
                 <th>Features</th>
@@ -145,7 +145,7 @@ class SPDT extends Component {
         </Container>
         <br></br>
         <Container>
-          <Table responsive>
+          <Table responsive bordered striped>
             <thead>
               <tr>
                 <th>RF Performance, SMA-F</th>
@@ -154,6 +154,8 @@ class SPDT extends Component {
                 <th>S12 - 18 GHz</th>
                 <th>18 - 26.5 GHz</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>VSWR (max.)</td>
                 <td>1.20:1</td>
@@ -196,7 +198,123 @@ class SPDT extends Component {
                 <td>Failsafe, 26.5 GHz</td>
                 <td>Latching, 26.5 GHz</td>
               </tr>
+            </tbody>
+          </Table>
+        </Container>
+        <br></br>
+        <Container>
+          <Table responsive bordered striped>
+            <thead>
+              <tr>
+                <th>RF Performance, 2.92mm (K)</th>
+                <th>DC - 6 GHz</th>
+                <th>6 - 12 GHz</th>
+                <th>12 -18 GHz</th>
+                <th>18 - 26 GHz</th>
+                <th>26 - 31 GHz</th>
+                <th>31 - 33.5 GHz</th>
+              </tr>
             </thead>
+            <tbody>
+              <tr>
+                <td>VSWR (max.)</td>
+                <td>1.20:1</td>
+                <td>1.30:1</td>
+                <td>1.40:1</td>
+                <td>1.40:1</td>
+                <td>1.50:1</td>
+                <td>1.50:1</td>
+              </tr>
+              <tr>
+                <td>Insertion Loss (max.) dB</td>
+                <td>0.2</td>
+                <td>0.3</td>
+                <td>0.3</td>
+                <td>0.4</td>
+                <td>0.4</td>
+                <td>0.5</td>
+              </tr>
+              <tr>
+                <td>Isolation (min.) dB</td>
+                <td>80</td>
+                <td>70</td>
+                <td>70</td>
+                <td>60</td>
+                <td>50</td>
+                <td>40</td>
+              </tr>
+              <tr>
+                <td>Data Sheets: ​Standard / Narrow Body</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Failsafe, 33.5 GHz</td>
+                <td>Latching, 33.5 GHz</td>
+              </tr>
+              <tr>
+                <td>Data Sheets: Internal Terminations</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Failsafe, 33.5 GHz</td>
+                <td>Latching, 33.5 GHz</td>
+              </tr>
+              <tr>
+                <td>Data Sheets: 2P3T External Terminations</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Failsafe, 33.5 GHz</td>
+                <td>Latching, 33.5 GHz</td>
+              </tr>
+            </tbody>
+          </Table>
+        </Container>
+        <br></br>
+        <Container>
+          <Table responsive bordered striped>
+            <thead>
+              <tr>
+                <th>RF Performance, Type - N</th>
+                <th>DC - 1 GHz</th>
+                <th>1 - 4 GHz</th>
+                <th>4 - 8 GHz</th>
+                <th>8 - 12 GHz</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>VSWR (max.)</td>
+                <td>1.25:1</td>
+                <td>1.30:1</td>
+                <td>1.40:1</td>
+                <td>1.40:1</td>
+              </tr>
+              <tr>
+                <td>Insertion Loss (max.) dB</td>
+                <td>0.30</td>
+                <td>0.40</td>
+                <td>0.40</td>
+                <td>0.50</td>
+              </tr>
+              <tr>
+                <td>Isolation (min.) dB</td>
+                <td>90</td>
+                <td>80</td>
+                <td>80</td>
+                <td>70</td>
+              </tr>
+              <tr>
+                <td>Data Sheets: Standard Body</td>
+                <td></td>
+                <td></td>
+                <td>Failsafe</td>
+                <td>Latching</td>
+              </tr>
+            </tbody>
           </Table>
         </Container>
       </div>

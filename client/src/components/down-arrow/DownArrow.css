@@ -4,14 +4,15 @@
   width: 5vw;
   border-style: solid;
   border-color: black;
-  border-width: 0px 1px 1px 0px;
+  border-width: 0px 7px 7px 0px;
+  box-shadow: 7px 10px 5px -3px rgba(0, 0, 0, 0.56);
   transform: rotate(45deg);
   transition: border-width 150ms ease-in-out;
 }
 
 .arrow:hover {
-  border-bottom-width: 4px;
-  border-right-width: 4px;
+  border-bottom-width: 10px;
+  border-right-width: 10px;
 }
 
 .down-arrow-container {
