@@ -4,8 +4,8 @@ import Container from "react-bootstrap/Container";
 import NavBar from "react-bootstrap/NavBar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Nav from "react-bootstrap/Nav";
-import "./App.css";
 
+import "./App.css";
 import Footer from "./components/Footer";
 import HomePage from "./pages/home/Home";
 import AboutPage from "./pages/about/About";
@@ -24,6 +24,7 @@ import RuggedizedSwitches from "./pages/products/RuggedizedSwitches";
 import SwitchMatrix from "./pages/products/SwitchMatrix";
 import PHSwitchParameters from "./pages/products/PHSwitchParameters";
 import ModelNumbers from "./pages/products/ModelNumbers";
+
 
 class App extends Component {
 

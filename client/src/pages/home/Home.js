@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 import { render } from "react-dom";
 import { WOW } from 'wowjs/dist/wow';
 import { Row, Col, Container, Image, rounded, fluid } from "react-bootstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Hero from "../../components/hero/Hero";
 import "./Home.css";
+import DownArrow from "../../components/down-arrow/DownArrow";
 
 class HomePage extends Component {
   componentDidMount() {
@@ -21,6 +23,9 @@ class HomePage extends Component {
             className="wow zoomIn"
             data-wow-duration="1.5s"
           />
+        </div>
+        <div>
+          <DownArrow></DownArrow>
         </div>
         <div className="container">
           <Container>
