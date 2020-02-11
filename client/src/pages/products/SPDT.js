@@ -9,6 +9,7 @@ class SPDT extends Component {
   componentDidMount() {
     new WOW().init()
   }
+
   render() {
     return (
       <div className="container">
