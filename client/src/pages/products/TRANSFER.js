@@ -36,6 +36,18 @@ class TRANSFER extends Component {
           </Row>
         </Container>
         <Container>
+          <Row>
+            <Col sm={12}>
+              <p>e360 microwave offers Transfer switches with either failsafe or latching actuators and covering the frequency range from DC to 30 GHz with a wide variety of connectors types, actuator voltages and other options.</p>
+            </Col>
+          </Row>
+          <Row>
+            <Col sm={12}>
+              <p>These switches are ideal where circuit redundancy is needed. For example switching between two amplifiers and two antennas or circuit injection where one path the signal passes straight through and the other path diverts the signal through a circuit connected to the switch for signal conditioning. RF/Microwave coaxial switches afford reliability, long life and excellent power handling capabilities.</p>
+            </Col>
+          </Row>
+        </Container>
+        <Container>
           <Table responsive bordered striped>
             <thead>
               <tr>

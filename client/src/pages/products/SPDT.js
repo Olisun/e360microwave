@@ -37,6 +37,23 @@ class SPDT extends Component {
           </Row>
         </Container>
         <Container>
+          <Row>
+            <Col sm={12}>
+              <p>Single-Pole-Double-Throw (SPDT): This type of switch has three ports: one port in the center often referred to as the common and two output ports on either side of the common. The switch positions are selectable by a single actuation to connect the common and either output port. It is always connected to one or the other output port and never both at the same time. SPDTs are used for selecting between two power sources, swapping inputs, creating a ready mode and standby mode function or whenever two circuits need to switch between a common port.</p>
+            </Col>
+          </Row>
+          <Row>
+            <Col sm={12}>
+              <p>e360 microwave offers SPDT switches with either failsafe or latching actuators and covering the frequency range from DC to 33.5 GHz with a wide variety of connectors types, actuator voltages and other options.</p>
+            </Col>
+          </Row>
+          <Row>
+            <Col sm={12}>
+              <p>These switches are ideal for application specific switching between two signal paths and a common port. Frequently used in telecom and military markets as a stand-by switch and in testing stations to switch between other banks of switches. e360 microwave has one of largest selections of reliable, long life and feature rich coaxial switches in the market today. </p>
+            </Col>
+          </Row>
+        </Container>
+        <Container>
           <Table responsive bordered striped>
             <thead>
               <tr>
