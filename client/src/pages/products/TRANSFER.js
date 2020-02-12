@@ -40,8 +40,8 @@ class TRANSFER extends Component {
             <thead>
               <tr>
                 <th>Features</th>
-                <th>SPDT</th>
-                <th>SPDT</th>
+                <th>TRAN</th>
+                <th>TRAN</th>
               </tr>
             </thead>
             <tbody>
@@ -80,8 +80,8 @@ class TRANSFER extends Component {
             <thead>
               <tr>
                 <th>Options</th>
-                <th>SPDT</th>
-                <th>SPDT</th>
+                <th>TRAN</th>
+                <th>TRAN</th>
               </tr>
             </thead>
             <tbody>
@@ -112,22 +112,22 @@ class TRANSFER extends Component {
               </tr>
               <tr>
                 <td>Internal Terminations </td>
-                <td>Yes</td>
-                <td>Yes</td>
+                <td>---</td>
+                <td>---</td>
               </tr>
               <tr>
                 <td>External Terminations </td>
-                <td>Yes</td>
-                <td>Yes</td>
+                <td>---</td>
+                <td>---</td>
               </tr>
               <tr>
-                <td>ransient Suppression Diodes</td>
+                <td>Transient Suppression Diodes</td>
                 <td>Yes</td>
                 <td>Yes</td>
               </tr>
               <tr>
                 <td>Narrow Body</td>
-                <td>Yes</td>
+                <td>---</td>
                 <td>---</td>
               </tr>
               <tr>
@@ -204,10 +204,10 @@ class TRANSFER extends Component {
               </tr>
               <tr>
                 <td>Insertion Loss (max.) dB</td>
-                <td>0.2</td>
-                <td>0.3</td>
-                <td>0.5</td>
-                <td>0.8</td>
+                <td>0.20</td>
+                <td>0.30</td>
+                <td>0.50</td>
+                <td>0.80</td>
               </tr>
               <tr>
                 <td>Isolation (min.) dB</td>

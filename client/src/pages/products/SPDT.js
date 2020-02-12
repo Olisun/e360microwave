@@ -228,12 +228,12 @@ class SPDT extends Component {
               </tr>
               <tr>
                 <td>Insertion Loss (max.) dB</td>
-                <td>0.2</td>
-                <td>0.3</td>
-                <td>0.3</td>
-                <td>0.4</td>
-                <td>0.4</td>
-                <td>0.5</td>
+                <td>0.20</td>
+                <td>0.30</td>
+                <td>0.30</td>
+                <td>0.40</td>
+                <td>0.40</td>
+                <td>0.50</td>
               </tr>
               <tr>
                 <td>Isolation (min.) dB</td>
