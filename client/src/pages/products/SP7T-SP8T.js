@@ -207,6 +207,39 @@ class SP7T_SP8T extends Component {
             </tbody>
           </Table>
         </Container>
+        <br></br>
+        <Container>
+          <Table responsive bordered striped>
+            <thead>
+              <tr>
+                <th>RF Performance, Type - N</th>
+                <th>DC - 1 GHz</th>
+                <th>1 - 4 GHz</th>
+                <th>4 - 8 GHz</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>VSWR (max.)</td>
+                <td>1.25:1</td>
+                <td>1.40:1</td>
+                <td>1.70:1</td>
+              </tr>
+              <tr>
+                <td>Insertion Loss (max.) dB</td>
+                <td>0.30</td>
+                <td>0.40</td>
+                <td>0.55</td>
+              </tr>
+              <tr>
+                <td>Isolation (min.) dB</td>
+                <td>70</td>
+                <td>60</td>
+                <td>60</td>
+              </tr>
+            </tbody>
+          </Table>
+        </Container>
       </div>
     )
   }
