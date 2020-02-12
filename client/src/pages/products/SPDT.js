@@ -169,7 +169,7 @@ class SPDT extends Component {
                 <th>RF Performance, SMA-F</th>
                 <th>DC - 6 GHz</th>
                 <th>6 - 12 GHz</th>
-                <th>S12 - 18 GHz</th>
+                <th>12 - 18 GHz</th>
                 <th>18 - 26.5 GHz</th>
               </tr>
             </thead>

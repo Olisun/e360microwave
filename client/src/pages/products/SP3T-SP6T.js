@@ -50,7 +50,7 @@ class SP3T_SP6T extends Component {
           </Row>
           <Row>
             <Col sm={12}>
-              <p>These switches are ideal for application specific switching between two signal paths and a common port. Frequently used in telecom and military markets as a stand-by switch and in testing stations to switch between other banks of switches. e360 microwave has one of largest selections of reliable, long life and feature rich coaxial switches in the market today. </p>
+              <p>These switches are ideal for application specific switching between two signal paths and a common port. Frequently used in telecom and military markets as a stand-by switch and in testing stations to switch between other banks of switches. e360 microwave has one of largest selections of reliable, long life and feature rich coaxial switches in the market today.</p>
             </Col>
           </Row>
         </Container>
@@ -170,7 +170,7 @@ class SP3T_SP6T extends Component {
                 <th>RF Performance, SMA-F</th>
                 <th>DC - 6 GHz</th>
                 <th>6 - 12 GHz</th>
-                <th>S12 - 18 GHz</th>
+                <th>12 - 18 GHz</th>
               </tr>
             </thead>
             <tbody>
