@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import NavBar from "react-bootstrap/NavBar";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -7,6 +7,7 @@ import Nav from "react-bootstrap/Nav";
 
 import "./App.css";
 import Footer from "./components/Footer";
+import LandingPage from "./pages/landing-page/LandingPage";
 import HomePage from "./pages/home/Home";
 import AboutPage from "./pages/about/About";
 // import ProductsPage from "./pages/Products";
@@ -67,6 +68,7 @@ class App extends Component {
 
   render() {
     const { title, subTitle, text, home, about } = this.state;
+    const { location } = this.props;
     return (
       <Router>
         <Container className="container" fluid={true}>
@@ -75,7 +77,7 @@ class App extends Component {
             <NavBar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <NavBar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="/Home">Home</Link>
                 {/* <Link className="nav-link" to="/products">Products</Link> */}
                 <NavDropdown title="Products" id="basic-nav-dropdown">
                   <NavDropdown.Item href="/SPDT">SPDT</NavDropdown.Item>
@@ -97,7 +99,8 @@ class App extends Component {
               </Nav>
             </NavBar.Collapse>
           </NavBar>
-          <Route path="/" exact render={() => <HomePage
+          <Route path="/" exact render={() => <LandingPage />} />
+          <Route path="/Home" render={() => <HomePage
             title={home.title}
             subTitle={home.subTitle}
             text={home.text}
