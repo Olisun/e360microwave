@@ -13,8 +13,8 @@ class SP3T_SP6T extends Component {
   render() {
     return (
       <div className="container">
-        <Container id="product-header">
-          <Row className="wow zoomIn">
+        <Container className="wow zoomIn" id="product-header">
+          <Row>
             <Col sm={12} id="sp6t-col-12">
               <h3><strong>SPMT (SINGLE-POLE-MULTI-THROW)</strong></h3>
               <p>3, 4, 5 OR 6 POSITION SWITCHES</p>

@@ -13,8 +13,8 @@ class CompanyPage extends Component {
   render() {
     return (
       <div className="container">
-        <Container id="companyOverview">
-          <Row className="wow zoomIn">
+        <Container className="wow zoomIn" id="companyOverview">
+          <Row>
             <Col sm={12}>
               <h3><strong>COMPANY OVERVIEW</strong></h3>
             </Col>

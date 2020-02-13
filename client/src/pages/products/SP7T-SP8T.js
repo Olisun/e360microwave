@@ -13,8 +13,8 @@ class SP7T_SP8T extends Component {
   render() {
     return (
       <div className="container">
-        <Container id="product-header">
-          <Row className="wow zoomIn">
+        <Container className="wow zoomIn" id="product-header">
+          <Row>
             <Col sm={12} id="sp6t-col-12">
               <h3><strong>SPMT (SINGLE-POLE-MULTI-THROW)</strong></h3>
               <p>7 OR 8 POSITION SWITCHES</p>
@@ -50,7 +50,7 @@ class SP7T_SP8T extends Component {
           </Row>
           <Row>
             <Col sm={12}>
-              <p>SPMT coaxial switches with up to 8 paths are ideal for applications where >6 output paths are needed, flat switching configurations are preferred and low insertion loss is a must. Applications range from product development bench testing to RF / Microwave switch matrix interfaces to large volume production testing employing automatic test equipment (ATE) where reliability, long life and excellent insertion loss repeatability are required. </p>
+              <p>SPMT coaxial switches with up to 8 paths are ideal for applications where >6 output paths are needed, flat switching configurations are preferred and low insertion loss is a must. Applications range from product development bench testing to RF / Microwave switch matrix interfaces to large volume production testing employing automatic test equipment (ATE) where reliability, long life and excellent insertion loss repeatability are required.</p>
             </Col>
           </Row>
         </Container>

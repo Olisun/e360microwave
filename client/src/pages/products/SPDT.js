@@ -13,8 +13,8 @@ class SPDT extends Component {
   render() {
     return (
       <div className="container">
-        <Container id="product-header">
-          <Row className="wow zoomIn">
+        <Container className="wow zoomIn" id="product-header">
+          <Row>
             <Col sm={12}>
               <h3><strong>SINGLE-POLE-DOUBLE-THROW (SPDT)</strong></h3>
             </Col>
