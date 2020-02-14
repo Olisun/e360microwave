@@ -10,11 +10,17 @@ class RuggedizedSwitches extends Component {
     new WOW().init()
   }
 
-
   render() {
     return (
       <div className="container">
-        <Container className="wow zoomIn" >
+        <Container className="wow fadeInDown" id="product-header">
+          <Row>
+            <Col sm={12} id="sp6t-col-12">
+              <h3><strong>RUGGEDIZED SWITCHES EXTENDED OPERATING TEMPERATURE AND MOISTURE SEALING</strong></h3>
+            </Col>
+          </Row>
+        </Container>
+        <Container className="wow fadeIn">
           <Row>
             <Col sm={3}>
               <Image className="aboutImage-margin" src="/images/ruggedized-1.png" fluid />
