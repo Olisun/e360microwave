@@ -17,3 +17,13 @@
 #sp6t-col-12 {
   line-height: 0.5rem;
 }
+
+#ruggedized {
+  color: darkgreen;
+  font-size: large;
+}
+
+.about {
+  text-align: center;
+  font-weight: bold;
+}

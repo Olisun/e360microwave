@@ -6,6 +6,11 @@ import { Row, Col, Container, Image, rounded, fluid, ListGroup, ListGroupItem, h
 import "./Products.css";
 
 class SP11T_SP12T extends Component {
+  componentDidMount() {
+    new WOW().init()
+  }
+
+
   render() {
     return (
       <div className="container">

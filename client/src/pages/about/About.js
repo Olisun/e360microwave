@@ -15,6 +15,36 @@ class AboutPage extends Component {
       <div className="container">
         <div className="section-container">
           <Container>
+            <Row>
+              <Col sm={8}>
+                <h5><strong>e360 microwave, inc is a diverse RF/Microwave technology provider founded on 30+ years of experience with innovation and engineering excellence.</strong></h5>
+              </Col>
+              <Col sm={4}>
+                <Image src="/images/logo.png" fluid />
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={8}>
+                <p>e360 microwave’s products and technology serve multiple applications within several primary end markets: wired infrastructure, wireless communications, enterprise, defense/government and others. Applications for our products in these markets include telecommunication infrastructure, base stations, point-to-point communications, broadband access and IoT. In addition, our products are used in all levels and phases of testing. Levels: semiconductor wafer probe testing, packaged devices, modules and the end product or system. Phases: bench testing, low rate production to highly sophisticated automatic test equipment (ATE) solutions for mass production.</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={8}>
+                <h5><strong>Our Value ​Proposition</strong></h5>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={8}>
+                <p>e360 microwave is a RF/Microwave technology focused company. We design and deliver high performance products with intrinsic reliability and low cost of ownership. We build long term partnerships with our employees and customers that are kept in perfect alignment through engagement, proactive communication and exceptional support</p>
+              </Col>
+              <Col sm>
+                <Image src="/images/logo.png" fluid />
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div className="section-container">
+          <Container>
             <Row className="wow zoomIn">
               <Col sm={8}>
                 <h5><strong>WHO WE ARE</strong></h5>
@@ -133,58 +163,48 @@ class AboutPage extends Component {
             </Row>
             <Row id="markets-row">
               <Col sm={2}>
-                <p>TEST EQUIPMENT</p>
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <p className="about">TEST EQUIPMENT</p>
+                <Image className="aboutImage-margin" src="/images/test-1.png" fluid />
+                <Image className="aboutImage-margin" src="/images/test-2.png" fluid />
+                <Image className="aboutImage-margin" src="/images/test-3.png" fluid />
+                <Image className="aboutImage-margin" src="/images/test-4.png" fluid />
               </Col>
               <Col sm={2}>
-                <p>AEROSPACE / TRANSPORTATION</p>
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <p className="about">AEROSPACE / TRANSPORTATION</p>
+                <Image className="aboutImage-margin" src="/images/aerospace-1.png" fluid />
+                <Image className="aboutImage-margin" src="/images/aerospace-2.png" fluid />
+                <Image className="aboutImage-margin" src="/images/aerospace-3.png" fluid />
+                <Image className="aboutImage-margin" src="/images/aerospace-4.png" fluid />
+                <Image className="aboutImage-margin" src="/images/aerospace-5.png" fluid />
               </Col>
               <Col sm={2}>
-                <p>GOVERNMENT / DEFENSE</p>
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <p className="about">GOVERNMENT / DEFENSE</p>
+                <Image className="aboutImage-margin" src="/images/government-1.png" fluid />
+                <Image className="aboutImage-margin" src="/images/government-2.png" fluid />
+                <Image className="aboutImage-margin" src="/images/government-3.png" fluid />
+                <Image className="aboutImage-margin" src="/images/government-4.png" fluid />
+                <Image className="aboutImage-margin" src="/images/government-5.png" fluid />
               </Col>
               <Col sm={2}>
-                <p>WIRELESS / TELECOM</p>
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <p className="about">WIRELESS / TELECOM</p>
+                <Image className="aboutImage-margin" src="/images/wireless-1.png" fluid />
+                <Image className="aboutImage-margin" src="/images/wireless-2.png" fluid />
+                <Image className="aboutImage-margin" src="/images/wireless-3.png" fluid />
+                <Image className="aboutImage-margin" src="/images/wireless-4.png" fluid />
               </Col>
               <Col sm={2}>
-                <p>ENTERPRISE / SEMICONDUCTOR</p>
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <p className="about">ENTERPRISE / SEMICONDUCTOR</p>
+                <Image className="aboutImage-margin" src="/images/enterprise-1.png" fluid />
+                <Image className="aboutImage-margin" src="/images/enterprise-2.png" fluid />
+                <Image className="aboutImage-margin" src="/images/enterprise-3.png" fluid />
+                <Image className="aboutImage-margin" src="/images/enterprise-4.png" fluid />
               </Col>
               <Col sm={2}>
-                <p>MEDICAL / INDUSTRIAL</p>
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
-                <Image className="aboutImage-margin" src="/images/logo.png" fluid />
+                <p className="about">MEDICAL / INDUSTRIAL</p>
+                <Image className="aboutImage-margin" src="/images/medical-1.png" fluid />
+                <Image className="aboutImage-margin" src="/images/medical-2.png" fluid />
+                <Image className="aboutImage-margin" src="/images/medical-3.png" fluid />
+                <Image className="aboutImage-margin" src="/images/medical-4.png" fluid />
               </Col>
             </Row>
           </Container>

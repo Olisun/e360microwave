@@ -7,7 +7,6 @@ import Nav from "react-bootstrap/Nav";
 
 import "./App.css";
 import Footer from "./components/Footer";
-import LandingPage from "./pages/landing-page/LandingPage";
 import HomePage from "./pages/home/Home";
 import AboutPage from "./pages/about/About";
 // import ProductsPage from "./pages/Products";
@@ -27,7 +26,7 @@ import PHSwitchParameters from "./pages/products/PHSwitchParameters";
 import ModelNumbers from "./pages/products/ModelNumbers";
 
 
-class App extends Component {
+class App2 extends Component {
 
   constructor(props) {
     super(props);
@@ -77,7 +76,7 @@ class App extends Component {
             <NavBar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <NavBar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/Home">Home</Link>
+                <Link className="nav-link" to="/">Home</Link>
                 {/* <Link className="nav-link" to="/products">Products</Link> */}
                 <NavDropdown title="Products" id="basic-nav-dropdown">
                   <NavDropdown.Item href="/SPDT">SPDT</NavDropdown.Item>
@@ -99,8 +98,7 @@ class App extends Component {
               </Nav>
             </NavBar.Collapse>
           </NavBar>
-          <Route path="/" exact render={() => <LandingPage />} />
-          <Route path="/Home" render={() => <HomePage
+          <Route path="/" exact render={() => <HomePage
             title={home.title}
             subTitle={home.subTitle}
             text={home.text}
@@ -130,4 +128,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App2;
