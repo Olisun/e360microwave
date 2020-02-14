@@ -6,6 +6,9 @@ import { Row, Col, Container, Image, rounded, fluid, ListGroup, ListGroupItem, h
 import "./Products.css";
 import "../../components/modal/modal-lp-sma";
 import ModalLPSMA from "../../components/modal/modal-lp-sma";
+import ModalLPN from "../../components/modal/modal-lp-n";
+import ModalLP716 from "../../components/modal/modal-lp-716";
+import ModalLP4310 from "../../components/modal/modal-lp-4310";
 
 class Lo_PIM extends Component {
   componentDidMount() {
@@ -42,14 +45,14 @@ class Lo_PIM extends Component {
             <Col sm={3} className="loPimModalButton">
               <ModalLPSMA />
             </Col>
-            <Col sm={3}>
-
+            <Col sm={3} className="loPimModalButton">
+              <ModalLPN />
             </Col>
-            <Col sm={3}>
-
+            <Col sm={3} className="loPimModalButton">
+              <ModalLP716 />
             </Col>
-            <Col sm={3}>
-
+            <Col sm={3} className="loPimModalButton">
+              <ModalLP4310 />
             </Col>
           </Row>
         </Container>

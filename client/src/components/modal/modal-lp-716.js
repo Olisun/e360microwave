@@ -7,7 +7,7 @@ import { Row, Col, Container, Image, rounded, fluid, ListGroup, ListGroupItem, h
 import "./Modal.css";
 import "../../pages/products/Products.css"
 
-const ModalLPSMA = (props) => {
+const ModalLP716 = (props) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -28,7 +28,7 @@ const ModalLPSMA = (props) => {
       >
         <Modal.Header closeButton>
           <Modal.Title id="example-custom-modal-styling-title">
-            SMA
+            7/16 DIN
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
@@ -39,4 +39,4 @@ const ModalLPSMA = (props) => {
   );
 }
 
-export default ModalLPSMA;
+export default ModalLP716;
