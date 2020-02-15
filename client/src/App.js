@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import NavBar from "react-bootstrap/NavBar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Nav from "react-bootstrap/Nav";
+import { Transition } from 'react-transition-group';
 
 import "./App.css";
 import Footer from "./components/Footer";
@@ -61,13 +62,23 @@ class App2 extends Component {
       },
       newsroom: {
         title: "My Projects"
-      }
+      },
+      isOpen: false
     }
+  }
+
+  handleOpen = () => {
+    this.setState({ isOpen: true })
+  }
+
+  handleClose = () => {
+    this.setState({ isOpen: false })
   }
 
   render() {
     const { title, subTitle, text, home, about } = this.state;
     const { location } = this.props;
+    const { isOpen } = this.state;
     return (
       <Router>
         <Container className="container" fluid={true}>
@@ -78,7 +89,14 @@ class App2 extends Component {
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 {/* <Link className="nav-link" to="/products">Products</Link> */}
-                <NavDropdown title="Products" id="basic-nav-dropdown">
+                {/* <Transition> */}
+                <NavDropdown
+                  title="Products"
+                  id="basic-nav-dropdown"
+                  onMouseEnter={this.handleOpen}
+                  onMouseLeave={this.handleClose}
+                  open={isOpen}
+                  noCaret id="language-switcher-container">
                   <NavDropdown.Item href="/SPDT">SPDT</NavDropdown.Item>
                   <NavDropdown.Item href="/TRANSFER">TRANSFER</NavDropdown.Item>
                   <NavDropdown.Item href="/SP3T-SP6T">SP3T-SP6T</NavDropdown.Item>
@@ -91,6 +109,7 @@ class App2 extends Component {
                   <NavDropdown.Item href="/Power-Handling-Chart-&-Typical-Switch-Parameters">Power Handling Chart & Typical Switch Parameters</NavDropdown.Item>
                   <NavDropdown.Item href="/Model-Numbers">Model Numbers</NavDropdown.Item>
                 </NavDropdown>
+                {/* </Transition> */}
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/company">Company</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>

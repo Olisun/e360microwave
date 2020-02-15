@@ -31,3 +31,11 @@
 .loPimModalButton {
   text-align: center;
 }
+
+.modal-container {
+  margin: 3rem;
+}
+
+.modal-image {
+  padding: 2rem;
+}
