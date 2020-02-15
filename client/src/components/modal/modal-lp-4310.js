@@ -16,7 +16,7 @@ const ModalLP4310 = (props) => {
   return (
     <div>
       <Button variant="primary" onClick={() => setShow(true)}>
-        See Details
+        Details
       </Button>
 
       <Modal
@@ -26,7 +26,7 @@ const ModalLP4310 = (props) => {
         size="xl"
         aria-labelledby="example-custom-modal-styling-title"
       >
-        <Modal.Body>
+        <Modal.Body closeButton>
           <div className="modal-container">
             <Container className="wow fadeInDown" id="product-header">
               <Row>
@@ -52,7 +52,7 @@ const ModalLP4310 = (props) => {
             <br></br>
             <Row>
               <Col sm={12}>
-                <p>​Our line of low PIM switches with 7/16 DIN connectors offer excellent performance and durability. e360microwave’s innovative line of low PIM switches are available with failsafe, latching or normally open actuators and a wide variety of voltages and options. 7/16 connectors provide superior performance for both return loss and intermodulation distortion. The connectors are very robust and stable making them suitable for telecommunications infrastructure applications.</p>
+                <p>​​To meet the increasing demands for high performance, reduced size and weight while maintaining consistent ultra-low PIM repeatability, e360microwave has developed a family of switches to meet these requirements. Our switches with 4.3-10 DIN connectors offer excellent return loss and PIM performance independent from torque applied which greatly simplifies installation. Available today is a family of switches consisting of SPDT, Transfer and SPMT configurations with a wide variety of options and features. These switches are ideal for the latest evolution of base stations as well as distributed antenna systems (DAS) and small cell applications.</p>
               </Col>
             </Row>
             <Container>
@@ -85,16 +85,16 @@ const ModalLP4310 = (props) => {
                     <td>DC - 4.0 GHz</td>
                   </tr>
                   <tr>
-                    <td>Oper. Temp. degrees C</td>
-                    <td>-25 to +70</td>
-                    <td>-25 to +70</td>
-                    <td>-25 to +70</td>
-                  </tr>
-                  <tr>
                     <td>Actuator Voltages Available (DC) </td>
                     <td>5V to 38V</td>
                     <td>5V to 38V</td>
                     <td>5V to 38V</td>
+                  </tr>
+                  <tr>
+                    <td>Oper. Temp. degrees C</td>
+                    <td>-25 to +70</td>
+                    <td>-25 to +70</td>
+                    <td>-25 to +70</td>
                   </tr>
                   <tr>
                     <td>Control Connection</td>
