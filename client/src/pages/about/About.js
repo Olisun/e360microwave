@@ -49,8 +49,10 @@ class AboutPage extends Component {
             </Row>
           </Container>
         </div>
+        <br></br>
+        <hr></hr>
         <div className="section-container">
-          <Container className="wow fadeIn">
+          <Container className="wow fadeInRight">
             <Row>
               <Col sm={8}>
                 <h5><strong>WHO WE ARE</strong></h5>
@@ -95,8 +97,10 @@ class AboutPage extends Component {
             </Row>
           </Container>
         </div>
+        <br></br>
+        <hr></hr>
         <div className="section-container">
-          <Container className="wow fadeIn">
+          <Container className="wow fadeInLeft">
             <Row>
               <Col sm={4}></Col>
               <Col sm={8}>
@@ -136,28 +140,25 @@ class AboutPage extends Component {
             </Row>
           </Container>
         </div>
+        <br></br>
+        <hr></hr>
         <div className="section-container">
-          <Container>
-            <Row className="wow fadeIn">
+          <Container className="wow fadeInRight">
+            <Row>
               <Col sm={8}>
+                <br></br>
                 <h5><strong>LEADERSHIP</strong></h5>
-              </Col>
-              <Col sm={4}></Col>
-            </Row>
-            <Row>
-              <Col sm={8}>
                 <p><strong>Leadership in action</strong></p>
-              </Col>
-              <Col sm></Col>
-            </Row>
-            <Row>
-              <Col sm={8}>
                 <p>The leadership team at e360microwave is comprised of engineering experts and management executives from some of the largest RF and microwave corporations in the industry. We have a strong reputation for successful and profitable growth based on treating our employees and customers fairly and professionally.</p>
               </Col>
-              <Col sm></Col>
+              <Col sm={4}>
+                <Image src="/images/leadership.png" fluid />
+              </Col>
             </Row>
           </Container>
         </div>
+        <br></br>
+        <hr></hr>
         <div className="section-container">
           <Container className="wow fadeInUp" scroll={true}>
             <Row>
