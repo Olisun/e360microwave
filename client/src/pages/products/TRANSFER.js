@@ -14,14 +14,14 @@ class TRANSFER extends Component {
   render() {
     return (
       <div className="container">
-        <Container className="wow zoomIn" id="product-header">
+        <Container className="wow fadeInDown" id="product-header">
           <Row>
             <Col sm={12}>
               <h3><strong>TRANSFER SWITCHES</strong></h3>
             </Col>
           </Row>
         </Container>
-        <Container>
+        <Container className="wow fadeIn">
           <Row>
             <Col sm={3}>
 
@@ -35,7 +35,7 @@ class TRANSFER extends Component {
             </Col>
           </Row>
         </Container>
-        <Container>
+        <Container className="wow fadeIn">
           <Row>
             <Col sm={12}>
               <p>e360 microwave offers Transfer switches with either failsafe or latching actuators and covering the frequency range from DC to 30 GHz with a wide variety of connectors types, actuator voltages and other options.</p>
@@ -47,7 +47,7 @@ class TRANSFER extends Component {
             </Col>
           </Row>
         </Container>
-        <Container>
+        <Container className="wow fadeIn">
           <Table responsive bordered striped>
             <thead>
               <tr>
@@ -156,7 +156,7 @@ class TRANSFER extends Component {
           </Row>
         </Container>
         <br></br>
-        <Container>
+        <Container className="wow fadeIn">
           <Table responsive bordered striped>
             <thead>
               <tr>
@@ -195,7 +195,7 @@ class TRANSFER extends Component {
           </Table>
         </Container>
         <br></br>
-        <Container>
+        <Container className="wow fadeIn">
           <Table responsive bordered striped>
             <thead>
               <tr>
@@ -239,7 +239,7 @@ class TRANSFER extends Component {
           </Table>
         </Container>
         <br></br>
-        <Container>
+        <Container className="wow fadeInUp">
           <Table responsive bordered striped>
             <thead>
               <tr>

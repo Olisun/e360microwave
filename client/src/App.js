@@ -90,7 +90,6 @@ class App2 extends Component {
             <NavBar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
-                {/* <Link className="nav-link" to="/products">Products</Link> */}
                 {/* <Transition> */}
                 <NavDropdown
                   title="Products"

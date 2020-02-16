@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Hero from "../../components/hero/Hero";
 import "./Home.css";
 import DownArrow from "../../components/down-arrow/DownArrow";
+import Cube from "../../components/cube/Cube";
 
 class HomePage extends Component {
   componentDidMount() {
@@ -18,11 +19,12 @@ class HomePage extends Component {
     return (
       <div>
         <div className="wow zoomIn">
-          <Hero id="hero"
+          {/* <Hero id="hero"
             title={title}
             className="wow zoomIn"
             data-wow-duration="1.5s"
-          />
+          /> */}
+          <Cube />
         </div>
       </div>
     )
