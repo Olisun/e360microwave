@@ -25,6 +25,7 @@ import RuggedizedSwitches from "./pages/products/RuggedizedSwitches";
 import SwitchMatrix from "./pages/products/SwitchMatrix";
 import PHSwitchParameters from "./pages/products/PHSwitchParameters";
 import ModelNumbers from "./pages/products/ModelNumbers";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 class App2 extends Component {
@@ -81,6 +82,7 @@ class App2 extends Component {
     const { isOpen } = this.state;
     return (
       <Router>
+        <ScrollToTop />
         <Container className="container" fluid={true}>
           <NavBar className="border-bottom" sticky="top" bg="dark" variant="dark" expand="lg">
             <NavBar.Brand>e360microwave</NavBar.Brand>
