@@ -5,6 +5,7 @@ import NavBar from "react-bootstrap/NavBar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Nav from "react-bootstrap/Nav";
 import { Transition } from 'react-transition-group';
+import { WOW } from 'wowjs/dist/wow';
 
 import "./App.css";
 import Footer from "./components/Footer";
@@ -29,7 +30,6 @@ import ScrollToTop from "./components/ScrollToTop";
 
 
 class App2 extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -66,6 +66,10 @@ class App2 extends Component {
       },
       isOpen: false
     }
+  }
+
+  componentDidMount() {
+    new WOW().init()
   }
 
   handleOpen = () => {
