@@ -13,7 +13,7 @@ class SP3T_SP6T extends Component {
   render() {
     return (
       <div className="container">
-        <Container className="wow zoomIn" id="product-header">
+        <Container className="wow fadeInDown" id="product-header">
           <Row>
             <Col sm={12} id="sp6t-col-12">
               <h3><strong>SPMT (SINGLE-POLE-MULTI-THROW)</strong></h3>
@@ -23,7 +23,7 @@ class SP3T_SP6T extends Component {
             </Col>
           </Row>
         </Container>
-        <Container>
+        <Container className="wow fadeIn">
           <Row>
             <Col sm={4}>
               <Image className="aboutImage-margin" src="/images/sp6t-1.png" fluid />
@@ -37,7 +37,7 @@ class SP3T_SP6T extends Component {
             </Col>
           </Row>
         </Container>
-        <Container>
+        <Container className="wow fadeIn">
           <Row>
             <Col sm={12}>
               <p>Single-Pole-Double-Throw (SPDT): This type of switch has three ports: one port in the center often referred to as the common and two output ports on either side of the common. The switch positions are selectable by a single actuation to connect the common and either output port. It is always connected to one or the other output port and never both at the same time. SPDTs are used for selecting between two power sources, swapping inputs, creating a ready mode and standby mode function or whenever two circuits need to switch between a common port.</p>
@@ -54,7 +54,7 @@ class SP3T_SP6T extends Component {
             </Col>
           </Row>
         </Container>
-        <Container>
+        <Container className="wow fadeIn">
           <Table responsive bordered striped>
             <thead>
               <tr>
@@ -163,7 +163,7 @@ class SP3T_SP6T extends Component {
           </Row>
         </Container>
         <br></br>
-        <Container>
+        <Container className="wow fadeIn">
           <Table responsive bordered striped>
             <thead>
               <tr>
@@ -214,7 +214,7 @@ class SP3T_SP6T extends Component {
           </Table>
         </Container>
         <br></br>
-        <Container>
+        <Container className="wow fadeIn">
           <Table responsive bordered striped>
             <thead>
               <tr>
@@ -272,7 +272,7 @@ class SP3T_SP6T extends Component {
           </Table>
         </Container>
         <br></br>
-        <Container>
+        <Container className="wow fadeInUp">
           <Table responsive bordered striped>
             <thead>
               <tr>

@@ -13,7 +13,7 @@ class SP7T_SP8T extends Component {
   render() {
     return (
       <div className="container">
-        <Container className="wow zoomIn" id="product-header">
+        <Container className="wow fadeInDown" id="product-header">
           <Row>
             <Col sm={12} id="sp6t-col-12">
               <h3><strong>SPMT (SINGLE-POLE-MULTI-THROW)</strong></h3>
@@ -23,7 +23,7 @@ class SP7T_SP8T extends Component {
             </Col>
           </Row>
         </Container>
-        <Container>
+        <Container className="wow fadeIn">
           <Row>
             <Col sm={4}>
               <Image className="aboutImage-margin" src="/images/sp8t-1.png" fluid />
@@ -37,7 +37,7 @@ class SP7T_SP8T extends Component {
             </Col>
           </Row>
         </Container>
-        <Container>
+        <Container className="wow fadeIn">
           <Row>
             <Col sm={12}>
               <p>Single-Pole-Multi-Throw (SPMT): This type of coaxial RF / Microwave switch has a common input port and, for this model series, up to eight (8) individually selectable output paths. These coaxial switches are available with Normally Open or Latching actuators with or without internal terminations. We offer a wide selection of models that features indicators, TTL drivers, self-cut off circuits, positive (+) polarity and more.</p>
@@ -54,7 +54,7 @@ class SP7T_SP8T extends Component {
             </Col>
           </Row>
         </Container>
-        <Container>
+        <Container className="wow fadeIn">
           <Table responsive bordered striped>
             <thead>
               <tr>
@@ -163,7 +163,7 @@ class SP7T_SP8T extends Component {
           </Row>
         </Container>
         <br></br>
-        <Container>
+        <Container className="wow fadeIn">
           <Table responsive bordered striped>
             <thead>
               <tr>
@@ -208,7 +208,7 @@ class SP7T_SP8T extends Component {
           </Table>
         </Container>
         <br></br>
-        <Container>
+        <Container className="wow fadeInUp">
           <Table responsive bordered striped>
             <thead>
               <tr>
