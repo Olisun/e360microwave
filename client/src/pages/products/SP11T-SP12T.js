@@ -10,11 +10,10 @@ class SP11T_SP12T extends Component {
     new WOW().init()
   }
 
-
   render() {
     return (
       <div className="container">
-        <Container className="wow zoomIn" id="product-header">
+        <Container className="wow fadeInDown" id="product-header">
           <Row>
             <Col sm={12} id="sp6t-col-12">
               <h3><strong>SPMT (SINGLE-POLE-MULTI-THROW)</strong></h3>
@@ -54,7 +53,7 @@ class SP11T_SP12T extends Component {
             </Col>
           </Row>
         </Container>
-        <Container>
+        <Container className="wow fadeIn">
           <Table responsive bordered striped>
             <thead>
               <tr>
@@ -145,7 +144,7 @@ class SP11T_SP12T extends Component {
           </Row>
         </Container>
         <br></br>
-        <Container>
+        <Container className="wow fadeInUp">
           <Table responsive bordered striped>
             <thead>
               <tr>

@@ -57,7 +57,7 @@ class Lo_PIM extends Component {
           </Row>
         </Container>
         <br></br>
-        <Container>
+        <Container className="wow fadeIn">
           <Row>
             <Table responsive bordered striped>
               <thead>
@@ -82,7 +82,7 @@ class Lo_PIM extends Component {
           </Row>
         </Container>
         <br></br>
-        <Row>
+        <Row className="wow fadeIn">
           <Col sm={12}>
             <p>e360microwave is a leading supplier of ultra-low passive intermodulation performance switches. Available in a variety of configurations and connector solutions including SMA, Type-N, 7/16 DIN and 4.3–10 mini DIN.  Our switches are commonly used in infrastructure applications as well as the testing of other components and cabling. Our low PIM switches are ideal for ensuring overall system PIM performance remains at a low level. Designed for long life and repeatability these switches reduce costs and provide excellent reliability. High isolation reduces cross talk between adjacent channels for overall system signal integrity.</p>
           </Col>

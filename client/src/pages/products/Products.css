@@ -39,3 +39,7 @@
 .modal-image {
   padding: 2rem;
 }
+
+.modal-header {
+  padding: 0;
+}

@@ -48,7 +48,7 @@ class RuggedizedSwitches extends Component {
           </Row>
         </Container>
         <br></br>
-        <Container>
+        <Container className="wow fadeIn">
           <Table responsive bordered striped>
             <thead>
               <tr>
@@ -82,7 +82,7 @@ class RuggedizedSwitches extends Component {
           </Table>
         </Container>
         <br></br>
-        <Container>
+        <Container className="wow fadeInUp">
           <Row>
             <Col sm={12}>
               <h4 id="ruggedized2"><strong>Moisture Sealing: <i>Splash-Proof or Water-Proof</i></strong></h4>
