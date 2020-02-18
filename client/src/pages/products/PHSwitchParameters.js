@@ -63,8 +63,12 @@ class PHSwitchParameters extends Component {
                     <td>MIL-STD-202-Method 214, Condition D (10G RMS Non-Operating)</td>
                   </tr>
                   <tr>
-                    <td>Switches Life Actuations</td>
-                    <td>Failsafe - 2 Million Cycles; Latching - 5 Million Cycles; Normally Open - 2 Million Cycles</td>
+                    <td>Switch Life Actuations:</td>
+                    <td>
+                      <tr>Failsafe: 2 Million Cycles</tr>
+                      <tr>Latching: 5 Million Cycles</tr>
+                      <tr>Normally Open: 2 Million Cycles</tr>
+                    </td>
                   </tr>
                 </tbody>
               </Table>
