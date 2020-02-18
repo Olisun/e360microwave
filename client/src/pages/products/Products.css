@@ -43,3 +43,8 @@
 .modal-header {
   padding: 0;
 }
+
+#TypicalSwitchParams {
+  text-align: center;
+  margin: 1rem;
+}
