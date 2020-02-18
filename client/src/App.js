@@ -145,7 +145,6 @@ class App2 extends Component {
           <Route path="/company" render={() => <CompanyPage />} />
           <Route path="/contact" render={() => <ContactPage />} />
           <Route path="/newsroom" render={() => <NewsroomPage />} />
-          <Footer />
         </Container>
       </Router>
     )
