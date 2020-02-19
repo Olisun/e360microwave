@@ -13,7 +13,7 @@ import HomePage from "./pages/home/Home";
 import AboutPage from "./pages/about/About";
 // import ProductsPage from "./pages/Products";
 import CompanyPage from "./pages/company/Company";
-import ContactPage from "./pages/Contact";
+import ContactPage from "./pages/contact/Contact";
 import NewsroomPage from "./pages/Newsroom";
 import SPDT from "./pages/products/SPDT";
 import TRANSFER from "./pages/products/TRANSFER";
@@ -145,6 +145,7 @@ class App2 extends Component {
           <Route path="/company" render={() => <CompanyPage />} />
           <Route path="/contact" render={() => <ContactPage />} />
           <Route path="/newsroom" render={() => <NewsroomPage />} />
+          <Footer />
         </Container>
       </Router>
     )
