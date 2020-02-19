@@ -7,6 +7,9 @@ import CardRFAssoc from "../../components/card/Card-RFAssoc";
 import CardSummitTech from "../../components/card/Card-SummitTech";
 import CardPamcor from "../../components/card/Card-Pamcor";
 import CardSeaPort from "../../components/card/Card-SeaPort";
+import CardCDB from "../../components/card/Card-CDB";
+import CardAtlantic from "../../components/card/Card-Atlantic";
+import CardAdvanced from "../../components/card/Card-Advanced";
 import "./Contact.css";
 
 class ContactPage extends Component {
@@ -24,12 +27,12 @@ class ContactPage extends Component {
             </Col>
           </Row>
         </Container>
-        <Container>
+        <Container className="wow fadeIn">
           <Row>
-            <h5><strong>North America</strong></h5>
+            <h5 className="territory-header"><strong>North America</strong></h5>
           </Row>
         </Container>
-        <Row>
+        <Row className="wow fadeIn">
           <Col sm={6}>
             <Container>
               <Row>
@@ -59,15 +62,33 @@ class ContactPage extends Component {
             </Container>
             <Container>
               <Row>
-                <p className="territory"><strong>Northern California, Northern Nevada</strong></p>
+                <p className="territory"><strong>New York, New Jersey, E. Pennsylvania</strong></p>
               </Row>
-              <CardSummitTech />
+              <CardCDB />
             </Container>
             <Container>
               <Row>
-                <p className="territory"><strong>Southern California, Southern Nevada</strong></p>
+                <p className="territory"><strong>Maryland, Washington DC, Virginia, Delaware</strong></p>
               </Row>
-              <CardPamcor />
+              <CardAtlantic />
+            </Container>
+          </Col>
+        </Row>
+        <br></br>
+        <br></br>
+        <hr></hr>
+        <Container className="wow fadeIn">
+          <Row>
+            <h5 className="territory-header"><strong>International</strong></h5>
+          </Row>
+        </Container>
+        <Row className="wow fadeIn">
+          <Col sm={6}>
+            <Container>
+              <Row>
+                <p className="territory"><strong>South Korea</strong></p>
+              </Row>
+              <CardAdvanced />
             </Container>
           </Col>
         </Row>

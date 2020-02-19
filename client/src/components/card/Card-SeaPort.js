@@ -11,8 +11,8 @@ class CardSeaPort extends Component {
         <Card style={{ width: '27rem' }} className="contact-card">
           <Card.Body>
             <Card.Title>Sea-Port Technical Sales, Inc</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted"><a href="mailto:tom@seaporttech.com">Tom Raschko 425 702 8300 (m), 425 785 8553  (m)</a></Card.Subtitle>
-            <Card.Subtitle className="mb-2 text-muted"><a href="mailto:s.pennock@comcast.net">Steve Pennock 425 702 8300</a></Card.Subtitle>
+            <Card.Subtitle className="mb-2 text-muted"><a href="mailto:tom@seaporttech.com">Tom Raschko</a>&nbsp;&nbsp;(425) 702-8300, (425) 785-8553</Card.Subtitle>
+            <Card.Subtitle className="mb-2 text-muted"><a href="mailto:s.pennock@comcast.net">Steve Pennock</a>&nbsp;&nbsp;(425) 702-8300</Card.Subtitle>
             <Card.Text>
               6513 132nd Ave NE
               <br></br>
