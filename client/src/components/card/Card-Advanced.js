@@ -18,7 +18,7 @@ class CardAdvanced extends Component {
               126-1 Pyungcheon-dong, dongahn-gu
               <br></br>
               Ahnyang-city Gyunggido, Korea 431-755
-              </Card.Text>
+            </Card.Text>
             <Card.Link href="http://www.atkorea.biz/" target="blank">www.atkorea.biz</Card.Link>
           </Card.Body>
         </Card>

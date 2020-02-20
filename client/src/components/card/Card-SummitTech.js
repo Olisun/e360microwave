@@ -16,7 +16,7 @@ class CardSummitTech extends Component {
               2310 Homestead Road, C1 #203
               <br></br>
               Los Altos, CA  94024
-              </Card.Text>
+            </Card.Text>
             <Card.Link href="http://www.summittmc.com/" target="blank ">www.summittmc.com</Card.Link>
           </Card.Body>
         </Card>

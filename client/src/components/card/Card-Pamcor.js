@@ -21,7 +21,7 @@ class CardPamcor extends Component {
               Suite 207
               <br></br>
               Long Beach, CA 90807
-              </Card.Text>
+            </Card.Text>
             <Card.Link href="http://www.pamcor.com/" target="blank">www.pamcor.com</Card.Link>
           </Card.Body>
         </Card>

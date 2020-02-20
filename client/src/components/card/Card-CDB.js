@@ -18,7 +18,7 @@ class CardCDB extends Component {
               PO Box 62 Wantagh,
               <br></br>
               New York, NY 11793
-              </Card.Text>
+            </Card.Text>
             {/* bad email address for CDB */}
             <Card.Link href="http://www.cdbevolution.com/" target="blank">www.cdbevolution.com</Card.Link>
           </Card.Body>

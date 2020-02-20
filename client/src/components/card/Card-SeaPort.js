@@ -19,7 +19,7 @@ class CardSeaPort extends Component {
               Suite 168
               <br></br>
               Kirkland, WA 98033
-              </Card.Text>
+            </Card.Text>
             <Card.Link href="http://www.seaporttech.com/" target="blank">www.seaporttech.com</Card.Link>
           </Card.Body>
         </Card>

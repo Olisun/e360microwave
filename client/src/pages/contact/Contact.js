@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import { WOW } from 'wowjs/dist/wow';
 import { Row, Col, Container, Card, Image, rounded, fluid, ListGroup, ListGroupItem, horizontal } from "react-bootstrap";
 
+import Carde360 from "../../components/card/Card-e360";
 import CardRFAssoc from "../../components/card/Card-RFAssoc";
 import CardSummitTech from "../../components/card/Card-SummitTech";
 import CardPamcor from "../../components/card/Card-Pamcor";
@@ -27,9 +28,22 @@ class ContactPage extends Component {
             </Col>
           </Row>
         </Container>
+        <Row className="wow fadeIn">
+          <Col sm={6}>
+            <Container>
+              <Row>
+                <p className="territory"><strong>Located in the heart of Silicon Valley, the most unique and enterprising region in the world. e360 microwave is headquartered in Santa Clara is surrounded by the world’s largest corporations that lead the new digital age. Serviced by three international airports; San Francisco, Oakland and San Jose.</strong></p>
+              </Row>
+              <Carde360 />
+            </Container>
+          </Col>
+        </Row>
+        <br></br>
+        <br></br>
+        <hr></hr>
         <Container className="wow fadeIn">
           <Row>
-            <h5 className="territory-header"><strong>North America</strong></h5>
+            <h5 className="territory-header"><strong>Sales Representatives, North America</strong></h5>
           </Row>
         </Container>
         <Row className="wow fadeIn">
@@ -79,7 +93,7 @@ class ContactPage extends Component {
         <hr></hr>
         <Container className="wow fadeIn">
           <Row>
-            <h5 className="territory-header"><strong>International</strong></h5>
+            <h5 className="territory-header"><strong>Sales Representatives, International</strong></h5>
           </Row>
         </Container>
         <Row className="wow fadeIn">
@@ -92,8 +106,6 @@ class ContactPage extends Component {
             </Container>
           </Col>
         </Row>
-
-
       </div>
     )
   }
