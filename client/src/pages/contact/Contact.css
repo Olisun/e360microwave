@@ -6,3 +6,8 @@
 .territory-header {
   text-align: center;
 }
+
+.map {
+  margin: 2rem;
+  padding-right: 3rem;
+}
