@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/e360microwave/static/css/main.2191a88d.chunk.css",
-    "main.js": "/e360microwave/static/js/main.f5228782.chunk.js",
-    "main.js.map": "/e360microwave/static/js/main.f5228782.chunk.js.map",
-    "runtime-main.js": "/e360microwave/static/js/runtime-main.ac3c22ef.js",
-    "runtime-main.js.map": "/e360microwave/static/js/runtime-main.ac3c22ef.js.map",
-    "static/js/2.42bb98bc.chunk.js": "/e360microwave/static/js/2.42bb98bc.chunk.js",
-    "static/js/2.42bb98bc.chunk.js.map": "/e360microwave/static/js/2.42bb98bc.chunk.js.map",
-    "index.html": "/e360microwave/index.html",
-    "precache-manifest.cdb4c97f4aea78f9e3c28055b2d52f34.js": "/e360microwave/precache-manifest.cdb4c97f4aea78f9e3c28055b2d52f34.js",
-    "service-worker.js": "/e360microwave/service-worker.js",
-    "static/css/main.2191a88d.chunk.css.map": "/e360microwave/static/css/main.2191a88d.chunk.css.map",
-    "static/js/2.42bb98bc.chunk.js.LICENSE.txt": "/e360microwave/static/js/2.42bb98bc.chunk.js.LICENSE.txt"
+    "main.css": "/e360microwave-github-pages/static/css/main.2191a88d.chunk.css",
+    "main.js": "/e360microwave-github-pages/static/js/main.10c8ef01.chunk.js",
+    "main.js.map": "/e360microwave-github-pages/static/js/main.10c8ef01.chunk.js.map",
+    "runtime-main.js": "/e360microwave-github-pages/static/js/runtime-main.c3cf70d8.js",
+    "runtime-main.js.map": "/e360microwave-github-pages/static/js/runtime-main.c3cf70d8.js.map",
+    "static/js/2.42bb98bc.chunk.js": "/e360microwave-github-pages/static/js/2.42bb98bc.chunk.js",
+    "static/js/2.42bb98bc.chunk.js.map": "/e360microwave-github-pages/static/js/2.42bb98bc.chunk.js.map",
+    "index.html": "/e360microwave-github-pages/index.html",
+    "precache-manifest.403a5ff0bc857c3e54f901c080b10a04.js": "/e360microwave-github-pages/precache-manifest.403a5ff0bc857c3e54f901c080b10a04.js",
+    "service-worker.js": "/e360microwave-github-pages/service-worker.js",
+    "static/css/main.2191a88d.chunk.css.map": "/e360microwave-github-pages/static/css/main.2191a88d.chunk.css.map",
+    "static/js/2.42bb98bc.chunk.js.LICENSE.txt": "/e360microwave-github-pages/static/js/2.42bb98bc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ac3c22ef.js",
+    "static/js/runtime-main.c3cf70d8.js",
     "static/js/2.42bb98bc.chunk.js",
     "static/css/main.2191a88d.chunk.css",
-    "static/js/main.f5228782.chunk.js"
+    "static/js/main.10c8ef01.chunk.js"
   ]
 }
