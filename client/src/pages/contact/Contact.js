@@ -37,7 +37,7 @@ class ContactPage extends Component {
               <Carde360 />
             </Container>
           </Col>
-          <Col className="wow fadeIn" data-wow-delay="0.25s" sm={6}>
+          <Col className="wow fadeIn" data-wow-delay="0.5s" sm={6}>
             <Image className="map" src="/images/map.png" fluid />
           </Col>
         </Row>

@@ -28,12 +28,12 @@ class Hero extends Component {
 
               </div>
               {title && <h1 className="display-3 font-weight-bolder">{title}</h1>}
-              <div id="typed-hero">
+              <div id="typed-hero" className="wow fadeIn" data-wow-delay="1s">
                 <Typed
                   typedRef={(typed) => { this.typed = typed; }}
                   strings={["Technology ​for everything wireless and the testing there of..."]}
                   typeSpeed={40}
-                  startDelay={1000}
+                  startDelay={1500}
                 // backSpeed={50}
                 // loop
                 />
