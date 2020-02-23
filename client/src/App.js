@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Container from "react-bootstrap/Container";
-import NavBar from "react-bootstrap/NavBar";
+import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Nav from "react-bootstrap/Nav";
 import { Transition } from 'react-transition-group';
@@ -88,10 +88,10 @@ class App2 extends Component {
       <Router>
         <ScrollToTop />
         <Container className="container" fluid={true}>
-          <NavBar className="border-bottom" sticky="top" bg="dark" variant="dark" expand="lg">
-            <NavBar.Brand>e360microwave</NavBar.Brand>
-            <NavBar.Toggle className="border-0" aria-controls="navbar-toggle" />
-            <NavBar.Collapse id="navbar-toggle">
+          <Navbar className="border-bottom" sticky="top" bg="dark" variant="dark" expand="lg">
+            <Navbar.Brand>e360microwave</Navbar.Brand>
+            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+            <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 {/* <Transition> */}
@@ -120,8 +120,8 @@ class App2 extends Component {
                 <Link className="nav-link" to="/contact">Contact</Link>
                 <Link className="nav-link" to="/newsroom">Newsroom</Link>
               </Nav>
-            </NavBar.Collapse>
-          </NavBar>
+            </Navbar.Collapse>
+          </Navbar>
           <Route path="/" exact render={() => <HomePage
             title={home.title}
             subTitle={home.subTitle}
