@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { render } from 'react-dom';
 
-import Hero from '../../components/hero/Hero';
+import ModalNumberPdf from "../../components/ModelNumberPdf";
 
 class ModelNumbers extends Component {
   render() {
@@ -9,6 +9,7 @@ class ModelNumbers extends Component {
       <div className="container">
         <h1>Model Numbers Page</h1>
         <p>Download master model numbering chart here.</p>
+        <ModalNumberPdf />
       </div>
     )
   }
