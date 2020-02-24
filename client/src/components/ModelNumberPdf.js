@@ -1,41 +1,61 @@
-import React, { Component } from "react";
-import { Document, Page } from "react-pdf";
+import React, { Component } from 'react';
+import { Document, Page } from 'react-pdf';
+
+import e360_model_numbering from './e360_model_numbering.pdf';
 
 export default class ModalNumberPdf extends Component {
-  state = { numPages: null, pageNumber: 1 };
+  state = {
+    numPages: null,
+    pageNumber: 1,
+  }
 
-  onDocumentLoadSuccess = ({ numPages }) => {
-    this.setState({ numPages });
+  onDocumentLoadSuccess = (document) => {
+    const { numPages } = document;
+    this.setState({
+      numPages,
+      pageNumber: 1,
+    });
   };
 
-  goToPrevPage = () =>
-    this.setState(state => ({ pageNumber: state.pageNumber - 1 }));
-  goToNextPage = () =>
-    this.setState(state => ({ pageNumber: state.pageNumber + 1 }));
+  changePage = offset => this.setState(prevState => ({
+    pageNumber: prevState.pageNumber + offset,
+  }));
+
+  previousPage = () => this.changePage(-1);
+
+  nextPage = () => this.changePage(1);
 
   render() {
-    const { pageNumber, numPages } = this.state;
+    const { numPages, pageNumber } = this.state;
 
     return (
-      <div>
-        <nav>
-          <button onClick={this.goToPrevPage}>Prev</button>
-          <button onClick={this.goToNextPage}>Next</button>
-        </nav>
-
-        <div style={{ width: 600 }}>
-          <Document
-            file="/example.pdf"
-            onLoadSuccess={this.onDocumentLoadSuccess}
+      <React.Fragment>
+        <Document
+          file={e360_model_numbering}
+          onLoadSuccess={this.onDocumentLoadSuccess}
+        >
+          <Page pageNumber={pageNumber} />
+        </Document>
+        <div>
+          <p>
+            Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
+          </p>
+          <button
+            type="button"
+            disabled={pageNumber <= 1}
+            onClick={this.previousPage}
           >
-            <Page pageNumber={pageNumber} width={600} />
-          </Document>
+            Previous
+          </button>
+          <button
+            type="button"
+            disabled={pageNumber >= numPages}
+            onClick={this.nextPage}
+          >
+            Next
+          </button>
         </div>
-
-        <p>
-          Page {pageNumber} of {numPages}
-        </p>
-      </div>
+      </React.Fragment>
     );
   }
 }
