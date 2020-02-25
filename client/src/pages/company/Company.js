@@ -22,7 +22,7 @@ class CompanyPage extends Component {
         </Container>
         <Container className="wow fadeIn">
           <Row>
-            <Col sm={5}>
+            <Col className="wow fadeIn" data-wow-delay="0.5s" sm={5}>
               <Image className="image-margin" src="/images/hq.png" fluid />
             </Col>
             <Col sm={7}>
@@ -58,7 +58,7 @@ class CompanyPage extends Component {
             </Col>
             <Col sm={4}></Col>
           </Row>
-          <Row>
+          <Row className="wow fadeIn" data-wow-delay="0.5s">
             <Col sm={4}>
               <Image className="aboutImage-margin" src="/images/switch-assembly-1.png" fluid />
             </Col>
@@ -74,7 +74,7 @@ class CompanyPage extends Component {
               <h5 id="center">Switch Assembly</h5>
             </Col>
           </Row>
-          <Row>
+          <Row className="wow fadeIn" data-wow-delay="0.5s">
             <Col sm={4}>
               <Image className="aboutImage-margin" src="/images/switch-test-1.png" fluid />
             </Col>
@@ -90,7 +90,7 @@ class CompanyPage extends Component {
               <h5 id="center">Switch Test</h5>
             </Col>
           </Row>
-          <Row>
+          <Row className="wow fadeIn" data-wow-delay="0.5s">
             <Col sm={4}>
               <Image className="aboutImage-margin" src="/images/incoming-1.png" fluid />
             </Col>
@@ -106,7 +106,7 @@ class CompanyPage extends Component {
               <h5 id="center">Incoming Inspection</h5>
             </Col>
           </Row>
-          <Row>
+          <Row className="wow fadeIn" data-wow-delay="0.5s">
             <Col sm={4}>
               <Image className="aboutImage-margin" src="/images/inhouse-1.png" fluid />
             </Col>
@@ -165,7 +165,7 @@ class CompanyPage extends Component {
               <Col sm={4}>
 
               </Col>
-              <Col sm={4}>
+              <Col className="wow fadeIn" data-wow-delay="0.5s" sm={4}>
                 <Image className="aboutImage-margin" src="/images/iso.png" fluid />
               </Col>
               <Col sm={4}>
