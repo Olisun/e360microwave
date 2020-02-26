@@ -12,6 +12,7 @@ import CardCDB from "../../components/card/Card-CDB";
 import CardAtlantic from "../../components/card/Card-Atlantic";
 import CardAdvanced from "../../components/card/Card-Advanced";
 import "./Contact.css";
+import FormTest from "../../components/form/Form";
 
 class ContactPage extends Component {
   componentDidMount() {
@@ -39,6 +40,11 @@ class ContactPage extends Component {
           </Col>
           <Col className="wow fadeIn" data-wow-delay="0.5s" sm={6}>
             <Image className="map" src="/images/map.png" fluid />
+          </Col>
+        </Row>
+        <Row>
+          <Col className="wow fadeIn" sm={12}>
+            <FormTest />
           </Col>
         </Row>
         <br></br>
