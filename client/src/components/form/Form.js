@@ -75,12 +75,15 @@ function FormTest() {
           </Form.Control.Feedback>
         </Form.Group>
       </Form.Row>
-      <Form.Group>
-        <Form.Check
-          required
-          label="Agree to terms and conditions"
-          feedback="You must agree before submitting."
-        />
+      <Form.Group controlId="exampleForm.ControlSelect1">
+        <Form.Label>Example select</Form.Label>
+        <Form.Control as="select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </Form.Control>
       </Form.Group>
       <Button type="submit">Submit form</Button>
     </Form>
