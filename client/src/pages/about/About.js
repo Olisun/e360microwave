@@ -27,7 +27,7 @@ class AboutPage extends Component {
               <br></br>
               <p>e360 microwave’s products and technology serve multiple applications within several primary end markets: wired infrastructure, wireless communications, enterprise, defense/government and others. Applications for our products in these markets include telecommunication infrastructure, base stations, point-to-point communications, broadband access and IoT. In addition, our products are used in all levels and phases of testing. Levels: semiconductor wafer probe testing, packaged devices, modules and the end product or system. Phases: bench testing, low rate production to highly sophisticated automatic test equipment (ATE) solutions for mass production.</p>
             </Col>
-            <Col sm={4}>
+            <Col className="wow fadeIn" data-wow-delay="0.5s" sm={4}>
               <Image src="/images/about-1.png" fluid />
             </Col>
           </Row>
@@ -38,7 +38,7 @@ class AboutPage extends Component {
               <br></br>
               <p>e360 microwave is a RF/Microwave technology focused company. We design and deliver high performance products with intrinsic reliability and low cost of ownership. We build long term partnerships with our employees and customers that are kept in perfect alignment through engagement, proactive communication and exceptional support</p>
             </Col>
-            <Col sm>
+            <Col className="wow fadeIn" data-wow-delay="0.5s" sm>
               <Image src="/images/about-2.png" fluid />
             </Col>
           </Row>
@@ -61,7 +61,7 @@ class AboutPage extends Component {
               <p>Our standard products are available in failsafe, latching and normally open operations with a wide variety of voltages, connectors and features. In addition to these products we offer derivative designs with custom performance or specific levels of screening on a quick turn basis. For those customers seeking a totally custom design, our experienced staff of engineers would welcome the opportunity to discuss your requirements.</p>
               <p><strong>​We've created many standard products but we also love new projects! Let's get started.</strong></p>
             </Col>
-            <Col sm={4}>
+            <Col className="wow fadeIn" data-wow-delay="0.5s" sm={4}>
               <Image src="/images/whoWeAre.png" fluid />
             </Col>
           </Row>
@@ -76,7 +76,7 @@ class AboutPage extends Component {
         <hr></hr>
         <Container className="wow fadeInLeft">
           <Row>
-            <Col sm={4}>
+            <Col className="wow fadeIn" data-wow-delay="0.5s" sm={4}>
               <Image src="/images/technology.png" fluid />
             </Col>
             <Col sm={8}>
@@ -109,7 +109,7 @@ class AboutPage extends Component {
               <p><strong>Leadership in action</strong></p>
               <p>The leadership team at e360microwave is comprised of engineering experts and management executives from some of the largest RF and microwave corporations in the industry. We have a strong reputation for successful and profitable growth based on treating our employees and customers fairly and professionally.</p>
             </Col>
-            <Col sm={4}>
+            <Col className="wow fadeIn" data-wow-delay="0.5s" sm={4}>
               <Image src="/images/leadership.png" fluid />
             </Col>
           </Row>
@@ -125,14 +125,14 @@ class AboutPage extends Component {
             <Col sm={5}></Col>
           </Row>
           <Row id="markets-row">
-            <Col sm={2}>
+            <Col className="wow fadeIn" data-wow-delay="0.5s" sm={2}>
               <p className="about">TEST EQUIPMENT</p>
               <Image className="aboutImage-margin" src="/images/test-1.png" fluid />
               <Image className="aboutImage-margin" src="/images/test-2.png" fluid />
               <Image className="aboutImage-margin" src="/images/test-3.png" fluid />
               <Image className="aboutImage-margin" src="/images/test-4.png" fluid />
             </Col>
-            <Col sm={2}>
+            <Col className="wow fadeIn" data-wow-delay="0.5s" sm={2}>
               <p className="about">AEROSPACE / TRANSPORTATION</p>
               <Image className="aboutImage-margin" src="/images/aerospace-1.png" fluid />
               <Image className="aboutImage-margin" src="/images/aerospace-2.png" fluid />
@@ -140,7 +140,7 @@ class AboutPage extends Component {
               <Image className="aboutImage-margin" src="/images/aerospace-4.png" fluid />
               <Image className="aboutImage-margin" src="/images/aerospace-5.png" fluid />
             </Col>
-            <Col sm={2}>
+            <Col className="wow fadeIn" data-wow-delay="0.5s" sm={2}>
               <p className="about">GOVERNMENT / DEFENSE</p>
               <Image className="aboutImage-margin" src="/images/government-1.png" fluid />
               <Image className="aboutImage-margin" src="/images/government-2.png" fluid />
@@ -148,21 +148,21 @@ class AboutPage extends Component {
               <Image className="aboutImage-margin" src="/images/government-4.png" fluid />
               <Image className="aboutImage-margin" src="/images/government-5.png" fluid />
             </Col>
-            <Col sm={2}>
+            <Col className="wow fadeIn" data-wow-delay="0.5s" sm={2}>
               <p className="about">WIRELESS / TELECOM</p>
               <Image className="aboutImage-margin" src="/images/wireless-1.png" fluid />
               <Image className="aboutImage-margin" src="/images/wireless-2.png" fluid />
               <Image className="aboutImage-margin" src="/images/wireless-3.png" fluid />
               <Image className="aboutImage-margin" src="/images/wireless-4.png" fluid />
             </Col>
-            <Col sm={2}>
+            <Col className="wow fadeIn" data-wow-delay="0.5s" sm={2}>
               <p className="about">ENTERPRISE / SEMICONDUCTOR</p>
               <Image className="aboutImage-margin" src="/images/enterprise-1.png" fluid />
               <Image className="aboutImage-margin" src="/images/enterprise-2.png" fluid />
               <Image className="aboutImage-margin" src="/images/enterprise-3.png" fluid />
               <Image className="aboutImage-margin" src="/images/enterprise-4.png" fluid />
             </Col>
-            <Col sm={2}>
+            <Col className="wow fadeIn" data-wow-delay="0.5s" sm={2}>
               <p className="about">MEDICAL / INDUSTRIAL</p>
               <Image className="aboutImage-margin" src="/images/medical-1.png" fluid />
               <Image className="aboutImage-margin" src="/images/medical-2.png" fluid />
