@@ -2,6 +2,7 @@ import React, { Component, useState } from "react";
 import { render } from "react-dom";
 import { Form, Button, Col, InputGroup } from "react-bootstrap";
 
+import CascadingDropDown from "../cascadingDropDown/CascadingDropDown";
 import "./Form.css";
 
 function FormTest() {
@@ -85,6 +86,17 @@ function FormTest() {
           <option>5</option>
         </Form.Control>
       </Form.Group>
+      <Form.Group controlId="exampleForm.ControlSelect1">
+        <Form.Label>Example select</Form.Label>
+        <Form.Control as="select">
+          <option>a</option>
+          <option>b</option>
+          <option>d</option>
+          <option>d</option>
+          <option>e</option>
+        </Form.Control>
+      </Form.Group>
+      <CascadingDropDown />
       <Button type="submit">Submit form</Button>
     </Form>
   );
